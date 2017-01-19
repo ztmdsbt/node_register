@@ -1,0 +1,23 @@
+{
+  "name": "node_register",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ztmdsbt/node_register.git"
+  },
+  "keywords": [
+    "node",
+    "register"
+  ],
+  "author": "kaihang.an",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ztmdsbt/node_register/issues"
+  },
+  "homepage": "https://github.com/ztmdsbt/node_register#readme"
+}
