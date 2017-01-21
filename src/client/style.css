@@ -1,0 +1,42 @@
+.bg {
+    display:block;
+    max-width:800px;
+    width: 100%;
+    margin:auto; 
+}
+
+.form {
+    background-image:url('./img/hsl2.png'); 
+    background-repeat:no-repeat;
+    background-position:center 0; 
+    height:500px;
+    max-width:800px;
+    width: 100%;
+    margin:auto;
+    padding: 50px;
+} 
+
+.labelInfo {
+    font-size: 25px;
+}
+
+p input {
+    max-width: 210px;
+    height: 35px;
+    margin-left: 40px;
+}
+
+form p {
+    max-width: 300px;
+    line-height: 50px;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

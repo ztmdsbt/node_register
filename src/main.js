@@ -10,6 +10,11 @@ server.use(jsonParser);
 server.use(urlencodedParser);
 
 server.use('/api', router);
+server.use('/static', express.static(__dirname + '/../src/client'));
+server.get('/', (request, response) => {
+    var dirname = __dirname + '/../src/client/';
+    response.sendFile('index.html', {root:dirname});
+});
 
 server.listen(8089);
 console.log('start register server on 8089.');
