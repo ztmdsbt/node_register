@@ -44,7 +44,7 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.9.0",
     "pre-commit": "^1.2.2",
-    "style-loader": "^0.16.0"
+    "style-loader": "^0.17.0"
   },
   "pre-commit": [
     "eslint"
